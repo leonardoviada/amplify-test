@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "amplifytest43998daf",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/book": {
+      "name": "/book",
+      "lambdaFunction": "amplifytest8e159553",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
