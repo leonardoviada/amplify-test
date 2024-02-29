@@ -1,5 +1,19 @@
 {
   "api": {
+    "api6ee2a202": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifyteste615a511"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "apic7ececec": {
       "dependsOn": [
         {
@@ -57,6 +71,11 @@
       "service": "Lambda"
     },
     "amplifytest8e159553": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amplifyteste615a511": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
